@@ -26,14 +26,10 @@ Route::group(['middleware' => ['web', 'auth']], function () {
     Route::resource ('/painel/produtos','Painel\ProdutoController');
     Route::resource ('/painel/clientes','Painel\ClientesController');
     Route::resource ('/painel/instrutores','Painel\InstrutoresController');
-
-
-});
-
-
-Route::group(['middleware' => ['web', 'auth']], function () {
     Route::resource ('/painel/clientesRelatorio','Painel\ClientesRelatorioController');
 
 });
+
+
 
 Route::get('/home', 'HomeController@index');

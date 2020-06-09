@@ -1,12 +1,23 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("Raleway-Regular.ttf");
+}
+
 .body{
-    font-family: Raleway,sans-serif;
+    font-family: myFirstFont,sans-serif;
 }
 
 .title-pg {
     font-size: 22px;
     text-align: center;
     margin-bottom: 24px;
-    font-family: Raleway,sans-serif;
+    font-family: myFirstFont,sans-serif;
+}
+
+
+
+th,td,table, .btn, .form, select,li,.navbar-brand,a  {
+    font-family: myFirstFont,sans-serif;
 }
 
 .borda-filtro {

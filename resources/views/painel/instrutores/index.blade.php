@@ -1,5 +1,6 @@
 @extends('painel.templates.template')
 
+
 @section('content')
     <h1 class="title-pg">Gerenciar Instrutores</h1>
 
@@ -11,7 +12,7 @@
         <div class="col-lg-8">
     <a href="{{route('instrutores.create')}}" class="btn btn-primary btn-add">
         <span class="glyphicon glyphicon-plus"></span> Cadastrar</a>
-    <table class="table table-bordered">
+    <table class="table table-bordered tablesorter">
 
         <tr>
             <th>Nome</th>

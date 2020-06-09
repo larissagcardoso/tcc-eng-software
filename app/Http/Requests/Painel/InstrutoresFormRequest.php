@@ -39,10 +39,10 @@ class InstrutoresFormRequest extends FormRequest
                 'cpf.required' => 'O campo CPF é de preenchimento obrigatório!',
                 'rg.required' => 'O campo RG é de preenchimento obrigatório!',
                 'atividades.required'=> 'O campo categoria é obrigatório!',
-                'cpf.max' => 'O campo deverá ter no máximo 11 caracteres',
+                'cpf.max' => 'O campo cpf deverá ter no máximo 11 caracteres',
                 'cpf.min' =>'O cpf deve ter pelo menos 11 caracteres.',
                 'rg.min' => 'O rg deve ter pelo menos 8 caracteres.',
-                'rg.max' => 'O campo deverá ter no máximo 8 caracteres',
+                'rg.max' => 'O campo rg deverá ter no máximo 8 caracteres',
         ];
 }
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> {{$title or 'Tcc Academia'}}</title>
+        <title> {{$title or 'Academia Fitness'}}</title>
     </head>
 
     <body>

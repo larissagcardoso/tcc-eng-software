@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Academia') }}</title>
 
     <!-- Styles -->
 
@@ -41,7 +41,7 @@
                         {{ config('app.name', 'Laravel') }}
                     </a>-->
 
-                    <span class="navbar-brand" > TCC Academia</span>
+                    <span class="navbar-brand" >Academia Fitness</span>
 
 
                 </div>
